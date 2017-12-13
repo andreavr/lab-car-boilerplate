@@ -1,1 +1,23 @@
-/* Los estilos de tu proyecto */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-image: url('../assets/images/taxi.jpg');
+    background-size:100% auto;
+    background-position-x: -75%;
+    background-attachment: fixed;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.btn-download {
+    background-color: #ffc107;
+    border: 1px solid #ffc107;
+}
+
+.btn-download :active {
+    background-color: #eeb50a;
+}
