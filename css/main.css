@@ -7,17 +7,39 @@
 .hero {
     background-image: url('../assets/images/taxi.jpg');
     background-size:100% auto;
-    background-position-x: -75%;
+    background-position-x: -50%;
     background-attachment: fixed;
-    height: 400px;
+    height: 450px;
     background-repeat: no-repeat;
 }
 
-.btn-download {
-    background-color: #ffc107;
-    border: 1px solid #ffc107;
+
+
+.jumbotron-hero {
+    background-color: #eeb50a;
+    color: #fff;
 }
 
-.btn-download :active {
+.mobile {
     background-color: #eeb50a;
+    padding-top: 5%;
+}
+
+.outline {
+    border: 2px solid #fff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.conduce {
+    background-image: url('../assets/images/conduce.jpg');
+    background-size:100% auto;
+    background-attachment: fixed;
+    background-position-x: -80%;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+
+.white-text {
+    color: #fff;
 }
