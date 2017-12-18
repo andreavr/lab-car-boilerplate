@@ -33,13 +33,17 @@
 
 .conduce {
     background-image: url('../assets/images/conduce.jpg');
-    background-size:100% auto;
-    background-attachment: fixed;
-    background-position-x: -80%;
-    height: 700px;
+    background-size: cover;
+    color: #fff;
     background-repeat: no-repeat;
+    padding-bottom: 5%;
 }
 
 .white-text {
     color: #fff;
+}
+
+.tarifas {
+    background-color: #eeb50a;
+    padding-top: 50px;
 }
