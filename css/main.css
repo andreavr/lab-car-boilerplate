@@ -33,10 +33,10 @@
 
 .conduce {
     background-image: url('../assets/images/conduce.jpg');
-    background-size: cover;
     color: #fff;
+    background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom: 5%;
+    height: 400px;
 }
 
 .white-text {
@@ -46,4 +46,8 @@
 .tarifas {
     background-color: #eeb50a;
     padding-top: 50px;
+}
+
+.inputs-tarifas {
+    padding-bottom: 5px;
 }
